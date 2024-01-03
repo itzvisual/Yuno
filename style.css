@@ -1,0 +1,133 @@
+h1{
+    color:rgb(0, 0, 0)
+}
+
+.title{
+    text-align: center;
+    
+}
+div {
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(148, 0, 0);
+    color: white;
+    position: relative;
+}
+p {
+    display: block;
+    margin: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+a {
+    display: inline-block;
+    margin: 1em;
+    font-family: Bebas;
+    font-size: 1em;
+
+}
+img {
+    display: block;
+    margin: auto;
+
+}
+li {
+    display: inline
+    
+}
+.contenedor{ 
+    display: flex;
+    z-index: 0;
+
+
+  
+  }
+  .img1{
+    margin-right: 10px;
+    z-index: 0;
+    width: 170px;
+  }
+  .img2 {
+    z-index: 0;
+    width: 160px;
+}
+.fierros{
+    display: inline-block;
+    margin-right: 245px;
+    margin-left: 290px;
+    font-family: Marisa;
+    font-size: 27px;
+}
+
+.hollow {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: Marisa;
+    font-size: 27px;
+
+}
+.lista1 {
+    display: flex;
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    justify-content: space-around;
+    z-index: 1000;
+    
+}
+
+body {
+    margin: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    align-content: center;
+
+}
+a:hover {
+    background-color: black;
+    color: white
+}
+
+a  {
+    text-decoration: none;
+    color: black; 
+
+}
+
+h1{
+    font-family: Marisa;
+}
+h2 {
+    font-family: Bebas;
+    font-size: 2em;
+
+}
+h3 {
+    font-family: Bebas;
+    font-size: 1em;
+
+}
+hr {
+    display: none;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(./fonts/bebas.ttf);
+}
+@font-face {
+    font-family: Marisa;
+    src: url(./fonts/Marisa.ttf);
+}
